@@ -7,7 +7,8 @@ import NextDocument, {
       return (
         <Html>
           <Head>
-          <link href="https://fonts.googleapis.com/css2?family=Encode+Sans+Condensed&family=Encode+Sans+Expanded:wght@700&display=swap" rel="stylesheet" />          </Head>
+            <link href="https://fonts.googleapis.com/css2?family=Encode+Sans:wght@800&display=swap" rel="stylesheet" />
+          </Head>
           <body className="bg-bg-main">
             <Main />
             <NextScript />

@@ -14,7 +14,9 @@ export default function Posts({ posts }) {
           <title>Web3 Remote | Find remote Web3 jobs</title>
           <link rel="icon" href="/favicon.ico" />
         </Head>
-        <Header />
+        <Header 
+          title={true}
+          titleText="Find Remote Web3 Jobs" />
 
         <div className="w-full max-w-3xl mx-auto my-8 px-6">
         <h2 className="pb-4 font-bold">Featured</h2>

@@ -6,7 +6,7 @@ module.exports = {
     extend: {
       fontFamily: {
         normal: ['Encode Sans Condensed'],
-        headers: ['Encode Sans Expanded']
+        headers: ['Encode Sans']
       },
       colors: {
         'bg-main':'#f6f5f8',
@@ -18,5 +18,7 @@ module.exports = {
   variants: {
     extend: {},
   },
-  plugins: [],
+  plugins: [
+    require('@tailwindcss/forms'),
+  ],
 }
