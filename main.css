@@ -1,0 +1,15 @@
+nav a{
+    text-decoration: underline;
+    text-decoration-style: dotted;
+}
+
+article p, article ul{
+    font-size: .9rem;
+    color: rgb(75, 85, 99);
+    line-height: 2;
+}
+
+article li{
+    list-style-type: disclosure-closed;
+margin-left: 2rem;
+}

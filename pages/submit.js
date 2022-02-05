@@ -20,9 +20,10 @@ export default function Submit() {
     return (
         <Layout
         title={true}
-            titleText="Submit Role">
+        titleText="Submit Role"
+        >
         <div className="my-8 px-6">
-        <form onSubmit={handleSubmit}>
+        <form onSubmit={handleSubmit} className="flex flex-col justify-center ">
         <label htmlFor="name">
                 Name:
             </label>

@@ -5,7 +5,7 @@ export default function Header({title, titleText}) {
         <>
          <Navigation />
 
-         {title && <h1 className="font-headers text-black font-extrabold text-6xl my-8 px-6">
+         {title && <h1 className="font-headers text-black font-extrabold text-6xl my-8 px-6 break-words">
             {titleText}
             </h1> }
            
